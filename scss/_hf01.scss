@@ -1,0 +1,25 @@
+.header {
+    .container {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        .hlogo {
+            display:inline-block;
+            font-size:24px;
+            font-weight:bold;
+        }
+    }
+}
+
+.footer {
+    background-color:#333333;
+    color:#dddddd;
+    .container {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        .copyright {
+            font-size:12px;
+        }
+    }
+}
