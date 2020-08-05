@@ -15,26 +15,13 @@ img {
   vertical-align: bottom; }
 
 a {
-  list-style: none;
+  text-decoration: none;
   color: #333333; }
 
 .clearB::after {
   content: '';
   display: block;
   clear: both; }
-
-.header,
-.contents,
-.footer {
-  position: relative;
-  width: 100%; }
-
-.container {
-  position: relative;
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 30px 0; }
 
 .header .container {
   display: flex;
@@ -55,91 +42,15 @@ a {
     .footer .container .copyright {
       font-size: 12px; }
 
-.info-change {
-  position: relative; }
-
-.btn-slidewrap {
+.header,
+.contents,
+.footer {
   position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .btn-slidewrap .slideleft, .btn-slidewrap .slideright {
-    width: 10%;
-    display: inline-block;
-    text-align: center; }
-  .btn-slidewrap .btn-slidebox {
-    width: 80%;
-    display: inline-block;
-    overflow: hidden; }
+  width: 100%; }
 
-.btnbox {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center; }
-  .btnbox > li {
-    position: relative;
-    margin-left: 20px; }
-    .btnbox > li:first-child {
-      margin-left: 0; }
-    .btnbox > li .btn-info {
-      display: inline-block;
-      width: 100%;
-      padding: 10px 20px;
-      font-size: 1rem;
-      border: none;
-      background: #333333;
-      border-radius: 3px;
-      color: #ffffff;
-      text-align: center; }
-
-.infobox {
-  width: 100%;
-  padding: 20px;
-  margin: 40px 0; }
-  .infobox > li {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px; }
-    .infobox > li :first-child {
-      margin-top: 0; }
-    .infobox > li.info-words {
-      font-style: italic;
-      color: #666666;
-      font-weight: 100;
-      font-size: 1.2rem; }
-    .infobox > li.info-name {
-      font-size: 24px;
-      font-weight: 700;
-      margin: 40px 0; }
-    .infobox > li.info-default {
-      color: #444444;
-      margin-bottom: 1.5rem; }
-    .infobox > li.info-desc .desc-txt {
-      font-size: 0.8rem;
-      line-height: 1.4; }
-    .infobox > li.info-owner {
-      margin: 50px 0 50px;
-      font-size: 0.8rem; }
-      .infobox > li.info-owner::before {
-        content: '오너:';
-        margin-right: 20px;
-        font-size: 0.6rem;
-        font-style: italic; }
-
-@media screen and (min-width: 768px) {
-  .btnbox {
-    float: left;
-    width: 30%;
-    max-width: 100px;
-    display: initial; }
-    .btnbox > li {
-      width: 100%;
-      margin-top: 10px; }
-      .btnbox > li:first-child {
-        margin-top: 0; }
-  .infobox {
-    float: right;
-    width: 70%;
-    padding: 20px; } }
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0; }

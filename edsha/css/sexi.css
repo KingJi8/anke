@@ -1,0 +1,112 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Noto Sans KR","나눔고딕",NamumGothic,"Apple SD Gothic Neo","돋움",dotum,sans-serif;
+  box-sizing: border-box; }
+
+ol, ul, li {
+  list-style: none; }
+
+img {
+  vertical-align: bottom; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+.clearB::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.header,
+.contents,
+.footer {
+  position: relative;
+  width: 100%; }
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.footer {
+  background-color: #333333;
+  color: #dddddd; }
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .container .copyright {
+      font-size: 12px; }
+
+.world-wrap,
+.char-wrap,
+.info-wrap {
+  position: relative; }
+
+.world-wrap {
+  margin-bottom: 30px; }
+  .world-wrap .slideleft {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .world-wrap .slideright {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .world-wrap .world-slidebox {
+    width: 80%;
+    margin: 0 10%;
+    background-color: #fff000; }
+    .world-wrap .world-slidebox .worldBtn {
+      display: inline-block;
+      margin-right: 20px; }
+
+.char-wrap {
+  margin-bottom: 20px; }
+  .char-wrap .charbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .char-wrap .charbox li {
+      width: 48%; }
+      .char-wrap .charbox li a {
+        display: inline-block;
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+        background-color: #666666;
+        border-radius: 5px;
+        color: #ffffff; }
+
+.info-wrap {
+  padding: 20px 0;
+  font-size: 16px; }
+  .info-wrap .info-box {
+    text-align: center; }
+    .info-wrap .info-box li {
+      margin-bottom: 10px; }
+    .info-wrap .info-box .info-words {
+      font-style: italic;
+      font-size: 1rem; }
+    .info-wrap .info-box .info-name {
+      margin-top: 30px;
+      font-weight: 700;
+      font-size: 1.4rem; }
+    .info-wrap .info-box .info-default {
+      margin-top: 30px;
+      font-size: 1rem; }
+    .info-wrap .info-box .info-desc {
+      margin-top: 30px; }
+      .info-wrap .info-box .info-desc .desc-txt {
+        font-size: 0.8rem; }
+    .info-wrap .info-box .info-owner {
+      font-size: 1rem;
+      margin-top: 40px; }
